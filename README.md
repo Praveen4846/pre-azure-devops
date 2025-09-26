@@ -142,6 +142,15 @@ Prepare your workstation and skills before diving into the Azure DevOps course. 
 - **Permissions & security**: Manage file ownership (`chmod`, `chown`, `umask`), sudoers configuration, and SSH key-based authentication.
 - **Remote administration**: Confidently connect via `ssh`, copy files with `scp`/`rsync`, and tunnel ports when diagnosing cloud resources.
 
+## Practice Code & Automation Exercises
+- **Bash automation**: Write a script that provisions a resource group and storage account using `az` CLI, wraps error handling, and logs output to a file.
+- **PowerShell Core**: Use Azure PowerShell (`Az` module) to create and tag a virtual network, then export the configuration to JSON.
+- **YAML pipelines**: Draft a minimal `azure-pipelines.yml` with stages for build, test, and deploy, including variable groups and conditional steps.
+- **IaC template**: Author a simple Bicep or ARM template that deploys an App Service plan and web app; parameterize environment names.
+- **Git workflow**: Practice branching, making pull requests, and resolving merge conflicts in a dummy repository.
+- **Python/Node scripts**: Create a small script that calls the Azure REST API or SDK to list resource groups and handle pagination.
+- **Container build**: Build a Dockerfile that packages a sample web app, pushes it to Azure Container Registry via `az acr build`, and runs it locally.
+
 ## Basic Commands & Syntax Refresher
 - **Terminal navigation**
   ```bash
@@ -251,6 +260,16 @@ Allocate 60–90 minutes daily; mix reading official docs, watching short tutori
 - [VS Code Documentation](https://code.visualstudio.com/docs)
 - [YAML Pipeline Schema](https://learn.microsoft.com/azure/devops/pipelines/yaml-schema)
 - [Microsoft Learn Paths](https://learn.microsoft.com/training/azure/)
+- [Azure Pricing Calculator](https://azure.microsoft.com/pricing/calculator/)
+- [Azure Architecture Center](https://learn.microsoft.com/azure/architecture/)
+- [Azure Status](https://status.azure.com/en-us/status)
+- [Azure DevOps Labs](https://azuredevopslabs.com/)
+- [DevOps Dojo Exercises](https://aka.ms/devopsdojo)
+- [Azure Friday Videos](https://azure.microsoft.com/resources/videos/azure-friday/)
+- [Cloud Adoption Framework](https://learn.microsoft.com/azure/cloud-adoption-framework/)
+- [Well-Architected Framework](https://learn.microsoft.com/azure/well-architected/)
+- [GitHub Learning Lab](https://lab.github.com/)
+- [Docker Documentation](https://docs.docker.com/)
 
 ## Smoke Tests
 - `code --version` prints the current VS Code CLI version.
